@@ -139,6 +139,7 @@ _data = {
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(414, 266)
+collision_mask = 16
 script = ExtResource("1_3psuk")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
